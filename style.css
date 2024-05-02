@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: none;
+    margin: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #ba1212;
+}
+
+.green {
+    background-color: #22ae0d;
+}
+
+.yellow {
+    background-color: #ffee00;
+}
+
+.purple {
+    background-color: #680160;
+}
+
+.gameFlash{
+    background-color: white;
+    color: black;
+}
+
+.userFlash{
+    background-color: rgb(17, 66, 107);
+    box-shadow: 0 15px 10px rgba(0,0,0,0.5);
+    color: black;
+}
+
+@media (max-width:575px) {
+    .btn{
+        width: 100px;
+        height: 100px;
+    }
+}
